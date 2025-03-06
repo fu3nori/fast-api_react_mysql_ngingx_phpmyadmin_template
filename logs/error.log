@@ -1,0 +1,9 @@
+2025/03/06 09:25:24 [error] 6912#7824: *2 CreateFile() "C:\Users\user\Desktop\nginx-1.26.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/03/06 10:29:47 [error] 14992#17644: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5173/", host: "localhost"
+2025/03/06 10:29:50 [error] 14992#17644: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5173/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2025/03/06 10:36:39 [error] 14992#17644: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5173/", host: "localhost"
+2025/03/06 10:36:41 [error] 14992#17644: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5173/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2025/03/06 10:40:59 [notice] 15612#3488: signal process started
+2025/03/06 11:17:43 [notice] 17600#17096: signal process started
+2025/03/06 11:19:54 [notice] 12468#12080: signal process started
+2025/03/06 11:34:56 [notice] 1404#18944: signal process started
