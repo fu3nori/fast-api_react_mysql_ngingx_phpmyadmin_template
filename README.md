@@ -14,7 +14,7 @@ mysql/Dockerfileの
 を任意の値に書き換える
 
 docker-compose.ymlの  
->       db：  
+>    db：  
 >    image: mysql:8.0  
 >    container_name: mysql_db  
 >    environment:  
