@@ -19,7 +19,7 @@ docker-compose.ymlの
 >    container_name: mysql_db  
 >    environment:  
 >      MYSQL_ROOT_PASSWORD: "12345678"  
-?      MYSQL_USER: "user"  
+>      MYSQL_USER: "user"  
 >      MYSQL_PASSWORD: "12345678"  
 >      MYSQL_DATABASE: "user_db"  # 必要ならデフォルトDBも作成  　　
 >    ports:  
