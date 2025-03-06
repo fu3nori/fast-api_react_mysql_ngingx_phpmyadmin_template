@@ -37,7 +37,7 @@ docker-compose.ymlの
 >       # phpMyAdmin が接続する DB サーバー情報
 >       PMA_HOST: db
 >       # root でログインしたい場合は以下も活用
->       MYSQL_ROOT_PASSWORD: "12345678"
+>       MYSQL_ROOT_PASSWORD: "12345678"  
 >       ports:  
 >       - "8080:80"
 
