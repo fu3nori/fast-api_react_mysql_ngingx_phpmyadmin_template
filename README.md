@@ -8,10 +8,10 @@ docker desktopをインストールして起動後、このディレクトリを
 デフォルトではrootのパスワードは12345678になっている。  
 userアカウントもuserになっていて、パスワードも12345678になっている。  
 mysql/Dockerfileの
->ENV MYSQL_ROOT_PASSWORD=12345678
->ENV MYSQL_USER=user
->ENV MYSQL_PASSWORD=12345678
-を任意の値に書き換える
+>ENV MYSQL_ROOT_PASSWORD=12345678  
+>ENV MYSQL_USER=user  
+>ENV MYSQL_PASSWORD=12345678  
+を任意の値に書き換える  
 
 docker-compose.ymlの  
 >    db：  
