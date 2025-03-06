@@ -38,7 +38,7 @@ docker-compose.ymlの
 >       PMA_HOST: db
 >       # root でログインしたい場合は以下も活用
 >       MYSQL_ROOT_PASSWORD: "12345678"
->       ports:
+>       ports:  
 >       - "8080:80"
 
 のユーザー名とパスワードも適宜変更する事
